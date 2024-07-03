@@ -1,71 +1,60 @@
-# scope-highlighter README
+<p align="center">
+  <img src="./scope-highlighter.gif" alt=" Language" />
+</p>
 
-This is the README for your extension "scope-highlighter". After writing up a brief description, we recommend including the following sections.
+<p align="center">
+  <img src="https://img.shields.io/github/languages/top/lamula21/scope-highlighter" alt=" Language" />
+  <img src="https://img.shields.io/github/stars/lamula21/scope-highlighter" alt=" Stars" />
+  <img src="https://img.shields.io/github/issues-pr/lamula21/scope-highlighter" alt=" Pull Requests" />
+  <img src="https://img.shields.io/github/issues/lamula21/scope-highlighter" alt=" Issues" />
+  <img src="https://img.shields.io/github/contributors/lamula21/scope-highlighter" alt=" Contributors" />
+</p>
 
-## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+# ScopeHighlighter - A Guider Extension to Your Code's Structure!
 
-For example if there is an image subfolder under your extension project workspace:
+A customizable scope highlighter, inspired by Dr Racket IDE.
 
-\!\[feature X\]\(images/feature-x.png\)
+Ever lost track of your code's structure while navigating through nested brackets? ScopeHighlighter is here to save the day!
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+## ✨ Features
+- **Universal highlighting:** ScopeHighlighter works on any language!
+- **Dynamic Highlighting:** Instantly see the scope of matching brackets with vibrant colors.
+- **Customizable Colors:** Personalize your highlight colors for brackets, braces, and parentheses.
+- **Flexible Modes:** Choose from "near", "always", or "never" highlight modes to suit your coding style.
+- **(Soon) Language Specific Settings:** Enable or disable highlighting for specific programming languages.
 
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+## 🌟 Why ScopeHighlighter?
+- **Boost Productivity:** Quickly understand the structure of your code, making it easier to debug and develop.
+- **Enhanced Readability:** No more squinting at matching brackets; ScopeHighlighter makes it clear and straightforward.
+- **Seamless Integration:** Works effortlessly and fast within the VS Code ecosystem, either on desktop or the browser, thanks to the bundler `esbuild`.
 
 ## Extension Settings
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+The following settings are configured for the scope-highlighter extension:
 
-For example:
+### Match Brackets
+- **Default**: `near`
+- **Description**: Choose when the scope highlight should be active:
+    - `near` for when the cursor is near the bracket,
+    - `always` to always highlight,
+    - `never` to never highlight.
 
-This extension contributes the following settings:
+### Scope Color
+- **Default**: `#4d4d4d30`
+- **Description**: Color for highlighting the entire scope of matching brackets. (Hex format)
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+### Bracket Color
+- **Default**: `#4d4d4d30`
+- **Description**: Color for highlighting the matching brackets. (Hex format)
 
-## Known Issues
+## Roadmap 
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+- [ ] **Language Specific Settings:** Implement highlighting for specific programming languages.
+- [ ] **HTML support:** Implement highlighting for nested html tags.
 
-## Release Notes
+## License
 
-Users appreciate release notes as you update your extension.
+This project is licensed under the **MIT** - see the [MIT](https://github.com/xavimondev/easyreadme/blob/main/LICENSE) file for details.
 
-### 1.0.0
 
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
