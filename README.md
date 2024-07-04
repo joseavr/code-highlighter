@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./scope-highlighter.gif" alt=" Language" />
+  <img src="./code-scope-highlighter.gif" alt=" Language" />
 </p>
 
 <p align="center">
@@ -11,11 +11,9 @@
 </p>
 
 
-# ScopeHighlighter - A Guider Extension to Your Code's Structure!
+# Code Scope Highlighter - A Highlighter Extension for Better Readability
 
 A customizable scope highlighter, inspired by Dr Racket IDE.
-
-Ever lost track of your code's structure while navigating through nested brackets? ScopeHighlighter is here to save the day!
 
 ## ✨ Features
 - **Universal highlighting:** ScopeHighlighter works on any language!
