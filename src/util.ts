@@ -114,8 +114,7 @@ function shouldHighlight(
 function setRangeStyle() {
 	return vscode.window.createTextEditorDecorationType({
 		light: {
-			backgroundColor:
-				vscode.workspace.getConfiguration("scope-highlighter").scopeColor,
+			backgroundColor: "#4d4d4d30"
 		},
 		dark: {
 			backgroundColor:
@@ -127,8 +126,7 @@ function setRangeStyle() {
 function setEndStyle() {
 	return vscode.window.createTextEditorDecorationType({
 		light: {
-			backgroundColor:
-				vscode.workspace.getConfiguration("scope-highlighter").bracketColor,
+			backgroundColor: "#4d4d4d30"
 		},
 		dark: {
 			backgroundColor:
