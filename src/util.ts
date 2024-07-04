@@ -118,7 +118,7 @@ function setRangeStyle() {
 		},
 		dark: {
 			backgroundColor:
-				vscode.workspace.getConfiguration("scope-highlighter").scopeColor,
+				vscode.workspace.getConfiguration("codeScopeHighlighter").scopeColor,
 		},
 	})
 }
@@ -130,7 +130,7 @@ function setEndStyle() {
 		},
 		dark: {
 			backgroundColor:
-				vscode.workspace.getConfiguration("scope-highlighter").bracketColor,
+				vscode.workspace.getConfiguration("codeScopeHighlighter").bracketColor,
 		},
 	})
 }

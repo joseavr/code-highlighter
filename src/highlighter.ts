@@ -11,7 +11,7 @@ class Highlighter {
 		this.scoperRangeDecorationType = util.setRangeStyle()
 		this.scoperEndDecorationType = util.setEndStyle()
 		this.userConfigHighlightingMode = vscode.workspace
-			.getConfiguration("scope-highlighter")
+			.getConfiguration("codeScopeHighlighter")
 			.get<HighlighterMode>("matchBrackets", HighlighterMode.Near)
 	}
 

@@ -6,7 +6,7 @@
 	"repository": "https://github.com/joseavr/code-scope-highlighter",
 	"icon" : "code-scope-highlighter-logo.jpeg",
 	"license": "MIT",
-	"version": "0.0.4",
+	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.90.0"
 	},
@@ -28,17 +28,17 @@
 			"type": "object",
 			"title": "Scope Highlighter",
 			"properties": {
-				"scope-highlighter.scopeColor": {
+				"codeScopeHighlighter.scopeColor": {
 					"type": "string",
 					"description": "Color for highlighting the entire scope of matching brackets. (Hex format)",
 					"default": "#4d4d4d89"
 				},
-				"scope-highlighter.bracketColor": {
+				"codeScopeHighlighter.bracketColor": {
 					"type": "string",
 					"description": "Color for highlighting the matching brackets. (Hex format)",
-					"default": "red"
+					"default": "#4d4d4d89"
 				},
-				"scope-highlighter.matchBrackets": {
+				"codeScopeHighlighter.matchBrackets": {
 					"type": "string",
 					"enum": [
 						"near",

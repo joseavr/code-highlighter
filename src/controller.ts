@@ -43,7 +43,7 @@ export class Controller {
 	private _onUpdateSettings(
 		configuration: vscode.ConfigurationChangeEvent
 	): void {
-		if (configuration.affectsConfiguration("scope-highlighter")) {
+		if (configuration.affectsConfiguration("codeScopeHighlighter")) {
 			this.highlighter.updateConfig()
 		}
 	}
