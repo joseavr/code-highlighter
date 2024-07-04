@@ -32,6 +32,9 @@ A customizable scope highlighter, inspired by Dr Racket IDE.
 The following settings are configured for the scope-highlighter extension:
 
 ### Match Brackets
+
+For color picker: https://vuetifyjs.com/en/components/color-pickers/
+
 - **Default**: `near`
 - **Description**: Choose when the scope highlight should be active:
     - `near` for when the cursor is near the bracket,
