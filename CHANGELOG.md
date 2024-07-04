@@ -12,3 +12,7 @@
 ## v0.0.3 - 2024-07-03
 
 - Modified default colors for light/dark theme
+
+## v0.0.4 - 2024-07-03
+
+- Modified extension name
