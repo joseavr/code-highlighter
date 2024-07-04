@@ -27,7 +27,7 @@ A customizable scope highlighter, inspired by Dr Racket IDE.
 - **Enhanced Readability:** No more squinting at matching brackets; ScopeHighlighter makes it clear and straightforward.
 - **Seamless Integration:** Works effortlessly and fast within the VS Code ecosystem, either on desktop or the browser, thanks to the bundler `esbuild`.
 
-## Extension Settings
+## ⚙️ Extension Settings
 
 The following settings are configured for the scope-highlighter extension:
 
@@ -46,12 +46,12 @@ The following settings are configured for the scope-highlighter extension:
 - **Default**: `#4d4d4d30`
 - **Description**: Color for highlighting the matching brackets. (Hex format)
 
-## Roadmap 
+## 🗺️ Roadmap 
 
 - [ ] **Language Specific Settings:** Implement highlighting for specific programming languages.
 - [ ] **HTML support:** Implement highlighting for nested html tags.
 
-## License
+## 📄 License
 
 This project is licensed under the **MIT** - see the [MIT](https://github.com/xavimondev/easyreadme/blob/main/LICENSE) file for details.
 
