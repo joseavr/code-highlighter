@@ -4,7 +4,7 @@
 	"displayName": "Code Scope Highlighter",
 	"description": "Easily visualize the scope of matching brackets with customizable colors and flexible highlight modes.",
 	"repository": "https://github.com/joseavr/code-scope-highlighter",
-	"icon" : "code-scope-highlighter-logo.jpeg",
+	"icon": "code-scope-highlighter-logo.webp",
 	"license": "MIT",
 	"version": "0.0.1",
 	"engines": {
