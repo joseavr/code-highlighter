@@ -1,9 +1,9 @@
 ---
 title: License
-description: MIT License for Code Scope Highlighter
+description: MIT License for Code Highlighter
 ---
 
-# 📄 License – Code Scope Highlighter
+# 📄 License – Code Highlighter
 
 This project is open-source and freely available under the terms below.
 
@@ -11,7 +11,7 @@ This project is open-source and freely available under the terms below.
 
 ## MIT License
 
-Copyright (c) {new Date().getFullYear()} [Jose Avila](https://github.com/joseavr)
+Copyright (c) {new Date().getFullYear()} [Jose Valdivia](https://github.com/joseavr)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
@@ -21,4 +21,4 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 
 ---
 
-_Originally published at [github.com/joseavr/code-scope-highlighter](https://github.com/joseavr/code-scope-highlighter)_
+_Originally published at [github.com/joseavr/code-highlighter](https://github.com/joseavr/code-highlighter)_

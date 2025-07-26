@@ -11,13 +11,16 @@
 </p>
 
 
-# Code Scope Highlighter - A Highlighter Extension for Better Readability
+# Code Highlighter - A Highlighter Extension for Better Readability
 
 A customizable scope highlighter, inspired by Dr Racket IDE.
 
 ## ✨ Features
 - **Universal highlighting:** ScopeHighlighter works on any language!
 - **Dynamic Highlighting:** Instantly see the scope of matching brackets with vibrant colors.
+- **HTML Tag Support:** Highlight nested HTML tags with intelligent cursor positioning:
+  - Place cursor on `<` of start tag to highlight: start tag + content + end tag
+  - Place cursor on `>` of any tag to highlight: content inside the tag
 - **Customizable Colors:** Personalize your highlight colors for brackets, braces, and parentheses.
 - **Flexible Modes:** Choose from "near", "always", or "never" highlight modes to suit your coding style.
 - **(Soon) Language Specific Settings:** Enable or disable highlighting for specific programming languages.
@@ -31,7 +34,7 @@ A customizable scope highlighter, inspired by Dr Racket IDE.
 
 The following settings are configured for the scope-highlighter extension:
 
-### Match Brackets
+### `codeScopeHighlighter.matchBrackets` - Match Brackets
 
 For color picker: https://vuetifyjs.com/en/components/color-pickers/
 
@@ -41,21 +44,47 @@ For color picker: https://vuetifyjs.com/en/components/color-pickers/
     - `always` to always highlight,
     - `never` to never highlight.
 
-### Scope Color
+### `codeScopeHighlighter.scopeColor` - Scope Color
 - **Default**: `#4d4d4d30`
 - **Description**: Color for highlighting the entire scope of matching brackets. (Hex format)
 
-### Bracket Color
+### `codeScopeHighlighter.bracketColor` - Bracket Color
 - **Default**: `#4d4d4d30`
 - **Description**: Color for highlighting the matching brackets. (Hex format)
 
+## 🎯 HTML Tag Highlighting
+
+The extension now supports HTML tag highlighting with intelligent cursor positioning:
+
+### How it works:
+- **Cursor on `<` of start tag:** Highlights the entire tag including start tag, content, and end tag
+- **Cursor on `>` of any tag:** Highlights only the content inside the tag (excluding the end tag's opening bracket)
+- **Cursor inside tag content:** Highlights the content and end tag
+
+### Example:
+```html
+<div class="container">
+    <h1>Hello World</h1>
+    <p>This is a <strong>test</strong> paragraph.</p>
+</div>
+```
+
+- Place cursor on `<` of `<div>` → highlights entire div block
+- Place cursor on `>` of `<div>` → highlights content inside div
+- Place cursor on `<` of `<h1>` → highlights h1 tag and content
+- Place cursor on `>` of `</h1>` → highlights h1 content only
+
 ## 🗺️ Roadmap 
 
+- [x] **HTML support:** Implement highlighting for nested html tags.
 - [ ] **Language Specific Settings:** Implement highlighting for specific programming languages.
-- [ ] **HTML support:** Implement highlighting for nested html tags.
+- [ ] **Bracket Specific Settings:** Implement highlighting for specific matching bracket symbols.
+
 
 ## 📄 License
 
 This project is licensed under the **MIT** - see the [MIT](https://github.com/xavimondev/easyreadme/blob/main/LICENSE) file for details.
 
+## For Devs
 
+Start Debugging right away with `F5` or Command Pallete `Debug: Start Debugging`

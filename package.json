@@ -1,12 +1,12 @@
 {
-	"name": "code-scope-highlighter",
+	"name": "code-highlighter",
 	"publisher": "joseavr",
-	"displayName": "Code Scope Highlighter",
-	"description": "Easily visualize the scope of matching brackets with customizable colors and flexible highlight modes.",
-	"repository": "https://github.com/joseavr/code-scope-highlighter",
+	"displayName": "Code Highlighter",
+	"description": "Highlight the scope of matching brackets with customizable colors and flexible highlight modes.",
+	"repository": "https://github.com/joseavr/code-highlighter",
 	"icon": "code-scope-highlighter-logo.webp",
 	"license": "MIT",
-	"version": "1.0.0",
+	"version": "1.2.0",
 	"engines": {
 		"vscode": "^1.90.0"
 	},
@@ -52,19 +52,20 @@
 		}
 	},
 	"scripts": {
-		"vscode:prepublish": "pnpm run package",
-		"compile": "pnpm run check-types && pnpm run lint && node esbuild.js",
+		"package": "pnpm run check-types && pnpm run lint && node esbuild.js --production",
+		"prepublish": "pnpm run package",
+		"publish": "pnpm vsce publish --no-dependencies",
 		"watch": "npm-run-all -p watch:*",
 		"watch:esbuild": "node esbuild.js --watch",
 		"watch:tsc": "tsc --noEmit --watch --project tsconfig.json",
-		"package": "pnpm run check-types && pnpm run lint && node esbuild.js --production",
+		
+		"compile": "pnpm run check-types && pnpm run lint && node esbuild.js",
 		"compile-tests": "tsc -p . --outDir out",
+		"test": "vscode-test",
 		"watch-tests": "tsc -p . -w --outDir out",
 		"pretest": "pnpm run compile-tests && pnpm run compile && pnpm run lint",
 		"check-types": "tsc --noEmit",
-		"lint": "eslint src --ext ts",
-		"test": "vscode-test",
-		"publish": "pnpm vsce publish --no-dependencies"
+		"lint": "eslint src --ext ts"
 	},
 	"devDependencies": {
 		"@types/vscode": "^1.90.0",
