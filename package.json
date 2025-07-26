@@ -1,5 +1,5 @@
 {
-	"name": "code-highlighter",
+	"name": "code-scope-highlighter",
 	"publisher": "joseavr",
 	"displayName": "Code Highlighter",
 	"description": "Highlight the scope of matching brackets with customizable colors and flexible highlight modes.",
