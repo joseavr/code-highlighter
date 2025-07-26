@@ -1,7 +1,7 @@
 {
 	"name": "code-scope-highlighter",
 	"publisher": "joseavr",
-	"displayName": "Code Highlighter",
+	"displayName": "Code Scope Highlighter",
 	"description": "Highlight the scope of matching brackets with customizable colors and flexible highlight modes.",
 	"repository": "https://github.com/joseavr/code-highlighter",
 	"icon": "code-scope-highlighter-logo.webp",

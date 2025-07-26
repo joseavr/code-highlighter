@@ -1,9 +1,9 @@
 ---
 title: License
-description: MIT License for Code Highlighter
+description: MIT License for Code Scope Highlighter
 ---
 
-# 📄 License – Code Highlighter
+# 📄 License – Code Scope Highlighter
 
 This project is open-source and freely available under the terms below.
 
@@ -21,4 +21,4 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 
 ---
 
-_Originally published at [github.com/joseavr/code-highlighter](https://github.com/joseavr/code-highlighter)_
+_Originally published at [github.com/joseavr/code-scope-highlighter](https://github.com/joseavr/code-scope-highlighter)_

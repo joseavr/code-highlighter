@@ -11,7 +11,7 @@
 </p>
 
 
-# Code Highlighter - A Highlighter Extension for Better Readability
+# Code Scope Highlighter - A Highlighter Extension for Better Readability
 
 A customizable scope highlighter, inspired by Dr Racket IDE.
 
