@@ -76,7 +76,7 @@ The extension now supports HTML tag highlighting with intelligent cursor positio
 
 ## 🗺️ Roadmap 
 
-- [x] **HTML support:** Implement highlighting for nested html tags.
+- [ ] **HTML support:** Implement highlighting for nested html tags.
 - [ ] **Language Specific Settings:** Implement highlighting for specific programming languages.
 - [ ] **Bracket Specific Settings:** Implement highlighting for specific matching bracket symbols.
 
