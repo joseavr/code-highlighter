@@ -54,7 +54,7 @@
 	"scripts": {
 		"package": "pnpm run check-types && pnpm run lint && node esbuild.js --production",
 		"prepublish": "pnpm run package",
-		"publish": "vsce publish",
+		"publish": "pnpm vsce publish",
 		"watch": "npm-run-all -p watch:*",
 		"watch:esbuild": "node esbuild.js --watch",
 		"watch:tsc": "tsc --noEmit --watch --project tsconfig.json",
